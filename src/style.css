@@ -11,7 +11,7 @@ header{
     display: flex;
     justify-content: left;
     align-items: center;
-    height: 10%;
+    height: 65px;
     background-color: #8BC34A;
 }
 
@@ -27,7 +27,7 @@ header{
 }   
 footer{
     
-    height: 10%;
+    height: 50px;
     background-color: #448AFF;
     margin-bottom: 0px;
     
