@@ -1,0 +1,90 @@
+body{
+    background-color: #212121;
+    width: 100%;
+    height: 100%;
+    
+}
+header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 62px;
+    background-color: #8BC34A;
+}
+nav{
+    height: 25px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+    height: 60vh;     
+}   
+footer{
+    height: 80px;
+    background-color: #448AFF;
+    box-sizing: content-box;
+}
+
+.ficha{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    width: 100%;
+    height: 100%;
+    opacity: 0;    
+}
+
+.borde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    background-color: #448AFF;
+    width: 23%;
+    height: 30%;
+    box-sizing: border-box;
+}
+#btnJugar{
+    margin: 10px;
+}
+#btnReiniciar{
+    margin: 10px;
+    opacity: 0;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
+
+footer{
+    font-size: 1.3em;
+}
+
+#ganaJuego{
+    background-color: #8BC34A;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    height: 60vh;   
+}
+#manos{
+    padding-left: 30px;
+}
