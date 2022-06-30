@@ -9,7 +9,6 @@ body{
 }
 header{
     display: flex;
-    justify-content: left;
     align-items: center;
     height: 65px;
     background-color: #8BC34A;
@@ -26,11 +25,18 @@ header{
     
 }   
 footer{
-    
+    display: flex;
+    margin: 0px;
     height: 50px;
     background-color: #448AFF;
     margin-bottom: 0px;
     
+}
+
+footer p{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 50px;
 }
 
 .ficha{
