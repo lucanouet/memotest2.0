@@ -71,6 +71,7 @@ function manejarInput(e){
         return        
     }
     if(compararFichas[0].className == compararFichas[1].className){
+        bloquerInputUsuario()
         paresLogrados++
         cantidadManos++
         paresObtenidos.textContent = paresLogrados
@@ -81,8 +82,10 @@ function manejarInput(e){
                 ficha.style.opacity = 0
                 ficha.parentElement.style["background-color"] = 'brown' 
                 compararFichas = []
+                desbloquearInputUsuario()   
             })
-        },1000)       
+        },1000)
+            
     }if(compararFichas[0].className != compararFichas[1].className){
         cantidadManos++
         setTimeout(function(){

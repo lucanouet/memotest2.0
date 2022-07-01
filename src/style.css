@@ -21,9 +21,12 @@ header{
     justify-content: center;
     align-items: center;
     height: 80%;
-    
-    
 }   
+
+#ganaJuego{
+    height: 130%;
+    width: 100%;
+}
 footer{
     display: flex;
     margin: 0px;
